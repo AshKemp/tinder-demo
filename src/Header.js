@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import PersonIcon from "@material-ui/icons/Person";
 import IconButton from "@material-ui/core/IconButton";
+import ForumIcon from "@material-ui/icons/Forum";
 export const Header = () => {
   return (
     <div className="header">
@@ -14,6 +15,9 @@ export const Header = () => {
         srcset=""
         className="header__logo"
       />
+      <IconButton>
+        <ForumIcon fontSize="large" className="header__icon" />
+      </IconButton>
     </div>
   );
 };
