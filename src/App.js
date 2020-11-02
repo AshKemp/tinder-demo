@@ -1,9 +1,14 @@
 import "./App.css";
+import { Header } from "./Header";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Let us create a MERN stack Tinder App Clone</h1>
+    // BEM class naming convention
+    <div className="app">
+      {/* {Header} */}
+      <Header />
+      {/* {Tinder Cards} */}
+      {/* {SwipeButtons} */}
     </div>
   );
 }
